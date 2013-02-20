@@ -1,0 +1,3 @@
+[submodule "vendor/spotify-knockout"]
+	path = vendor/spotify-knockout
+	url = git://github.com/mpj/spotify-knockout.git
