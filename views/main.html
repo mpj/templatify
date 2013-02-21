@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <head>
+
+        <!-- Spotify CSS -->
+        <link rel="stylesheet" type="text/css" href="sp://resources/css/eve.css">
+        <link rel="stylesheet" type="text/css" href="sp://resources/css/api.css">
+        <link rel="stylesheet" type="text/css" href="sp://resources/css/player.css">
+        <link rel="stylesheet" type="text/css" href="sp://resources/css/list.css">
+
+        <div data-bind="foreach: playlists">
+
+        </div>
+
+
+    </head>
+    <body>
+        <script src="vendor/knockout-2.2.1.js"></script>
+        <script src="vendor/spotify-knockout/view-bindings/image.js"></script>
+        <script src="vendor/spotify-knockout/view-bindings/list.js"></script>
+        <script>
+            require('view-models/main#MainViewModel', function(MainViewModel) {
+
+                var main = new MainViewModel();
+                ko.applyBindings(main);
+                main.init();
+
+            })
+        </script>
+
+    </body>
+</html>

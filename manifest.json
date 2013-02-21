@@ -1,0 +1,40 @@
+{
+
+  "_comment": "Documentation for manifest.json can be found here: http://developer.spotify.com/technologies/apps/guidelines/integration/#applicationmanifest",
+
+  "AppName": {
+    "en": "Spotify App Knockout.js Template "
+  },
+  "AppDescription": {
+    "en": "A best-practices example of building a Spotify app with Knockout.js"
+  },
+  "AppIcon": {
+    "36x18": "my-app-icon.png"
+  },
+
+  "BundleIdentifier": "spotify-knockout-template",
+  "BundleType": "Application",
+  "BundleVersion": "0.0.1",
+  "Dependencies": {
+    "api": "0.2.3",
+    "util": "0.1.0",
+    "resources": "0.2.2"
+  },
+  "RequiredInterface": 1,
+  "RequiredPermissions": [
+      "http://*.fbcdn.net",
+      "http://*.akamaihd.net",
+      "https://*.fbcdn.net",
+      "https://*.akamaihd.net",
+      "http://*.amazonaws.com",
+      "http://*.cloudfront.net",
+
+      "https://*",
+      "http://*"
+  ],
+  "SupportedLanguages": [
+    "en"
+  ],
+  "VendorIdentifier": "com.mycompanydomain"
+
+}
