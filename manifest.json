@@ -28,6 +28,7 @@
       "https://*.akamaihd.net",
       "http://*.amazonaws.com",
       "http://*.cloudfront.net",
+      "http://197ff225cf1f9236ff1ddfe2a412e7b27535d226-spotify-knockout-example.spapps.mpj.cloud.spotify.net",
 
       "https://*",
       "http://*"
